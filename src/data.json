@@ -1,0 +1,278 @@
+{
+    "content": {
+        "AboutUsCard": [{
+                "title": "Happy Customer",
+                "numbers": "250+",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text."
+            },
+
+            {
+                "title": "Projects",
+                "numbers": "30+",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text."
+            },
+
+            {
+                "title": "Awards",
+                "numbers": "10+",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text."
+            }
+        ]
+    },
+    "project": [{
+            "name": "Scoresby 674 Stud Road",
+            "projectImage": "https://live-production.wcms.abc-cdn.net.au/8b94c23de397d7ac7cb3110899288f13?impolicy=wcms_crop_resize&cropH=2082&cropW=3701&xPos=0&yPos=0&width=862&height=485",
+            "totalUnit": 4,
+            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
+            "propertyAddress": "720-722 Stud Road, Scoresby, VIC 3179",
+            "videoURL": "https://www.youtube.com/embed/fGKgQyhMF6g",
+            "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5474625401716!2d72.84731757603005!3d21.21012878152297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea20756481%3A0x1ef5b7359e8819da!2sJSP%20infotech!5e0!3m2!1sen!2sin!4v1685956626581!5m2!1sen!2sin",
+            "houseImage": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyz1dRS5YEZxcFI5pcg0NdZgRQDiZo68cBUcu3lO6ib3Iab727txR_ZSmeRJx7ykmO0VU&usqp=CAU",
+                "https://amazingarchitecture.com/storage/files/1/architecture-firms/r-architecture/humble-house/humble_house_%20r_architecture_berwick_victoria_australia-01.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9tFgg6gijIvDhwSgor0tTkxbqsSDdTBqN38GRaglf2WzpU1tfAJpwsW-_kCPXoAX8LA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MRbH1nHjz0-CwfRWGmnty7x6QmsDIKTd-DlVbIRQg_hCDh7SCy4xbzop8dTX4RBJeTk&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe93dEZUrYcUQq0nRBOT5VPB7GCYMDXx7jRshpFL1VatFdytvtjFPkjDAtmarPC8Ct3BU&usqp=CAU"
+            ],
+            "unit": [{
+                    "no": 1,
+                    "rooms": {
+                        "storey": 1,
+                        "garage": 1,
+                        "bedroom": 1,
+                        "bathroom": 1
+                    },
+                    "arcticturePlan": "https://i.pinimg.com/736x/a4/eb/f6/a4ebf666496b6d06c5f46b0eac701d7c.jpg"
+                },
+                {
+                    "no": 2,
+                    "rooms": {
+                        "storey": 2,
+                        "garage": 2,
+                        "bedroom": 2,
+                        "bathroom": 2
+                    },
+                    "arcticturePlan": "https://i.pinimg.com/originals/7d/85/c0/7d85c0562d1293477e22bb91bc5e59c2.jpg"
+                },
+                {
+                    "no": 3,
+                    "rooms": {
+                        "storey": 3,
+                        "garage": 3,
+                        "bedroom": 3,
+                        "bathroom": 3
+                    },
+                    "arcticturePlan": "https://i.pinimg.com/736x/a4/eb/f6/a4ebf666496b6d06c5f46b0eac701d7c.jpg"
+                },
+                {
+                    "no": 4,
+                    "rooms": {
+                        "storey": 4,
+                        "garage": 4,
+                        "bedroom": 4,
+                        "bathroom": 4
+                    },
+                    "arcticturePlan": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAdvXH627XJ98K11XT22FuU4ALwBURsEGZHw10P2x2mGc0ztWtz1jtMf7fRw2ai-uR_Q4&usqp=CAU"
+                }
+            ]
+
+        },
+        {
+            "name": "Boronia 24 Rankin Road",
+            "projectImage": "https://imageresizer.static9.net.au/tlld0P5jzDeMA0AzpvjoyyEf6yk=/750x422/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F8e804707-8ce0-4bca-9f0b-f71078679997",
+            "totalUnit": 6,
+            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
+            "propertyAddress": "Boronia 24 Rankin Road, Australia",
+            "videoURL": "https://www.youtube.com/embed/ZyQlpX7lCRE",
+            "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5474625401716!2d72.84731757603005!3d21.21012878152297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea20756481%3A0x1ef5b7359e8819da!2sJSP%20infotech!5e0!3m2!1sen!2sin!4v1685956626581!5m2!1sen!2sin",
+            "houseImage": [
+                "https://www.architectureartdesigns.com/wp-content/uploads/2016/09/The-Warringah-Road-House-by-Corben-Architects-in-Sydney-Australia-4.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOsiIJFkMVXHui9L8b5nOuhRihU3nL353CsS04s3KTBmYXxDmnSLkfCJh2WTeIB49_i1k&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKdl2npCOFR9gKjIzCrs0_C0b0AfN_5Jx3pve0M36-uBYiKPCVpdW9tzsUCV1G5Gkk5XI&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPF0eE8rLs8k1unKZJGdjeGCC4aqSPKqBoWZVp3UMD4rG5PPD64VrVxIswihDUQrrKJ5E&usqp=CAU",
+                "https://i.pinimg.com/originals/04/c3/a5/04c3a567fc2ccbd22affea161e492a05.jpg"
+            ],
+            "unit": [{
+                    "no": 1,
+                    "rooms": {
+                        "storey": 1,
+                        "garage": 1,
+                        "bedroom": 1,
+                        "bathroom": 1
+                    },
+                    "arcticturePlan": "https://i.pinimg.com/736x/a4/eb/f6/a4ebf666496b6d06c5f46b0eac701d7c.jpg"
+                },
+                {
+                    "no": 2,
+                    "rooms": {
+                        "storey": 2,
+                        "garage": 2,
+                        "bedroom": 2,
+                        "bathroom": 2
+                    },
+                    "arcticturePlan": "https://i.pinimg.com/originals/7d/85/c0/7d85c0562d1293477e22bb91bc5e59c2.jpg"
+                },
+                {
+                    "no": 3,
+                    "rooms": {
+                        "storey": 3,
+                        "garage": 3,
+                        "bedroom": 3,
+                        "bathroom": 3
+                    },
+                    "arcticturePlan": "https://i.pinimg.com/736x/a4/eb/f6/a4ebf666496b6d06c5f46b0eac701d7c.jpg"
+                },
+                {
+                    "no": 4,
+                    "rooms": {
+                        "storey": 4,
+                        "garage": 4,
+                        "bedroom": 4,
+                        "bathroom": 4
+                    },
+                    "arcticturePlan": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAdvXH627XJ98K11XT22FuU4ALwBURsEGZHw10P2x2mGc0ztWtz1jtMf7fRw2ai-uR_Q4&usqp=CAU"
+                },
+                {
+                    "no": 5,
+                    "rooms": {
+                        "storey": 5,
+                        "garage": 5,
+                        "bedroom": 5,
+                        "bathroom": 5
+                    },
+                    "arcticturePlan": "https://i.pinimg.com/originals/04/c3/a5/04c3a567fc2ccbd22affea161e492a05.jpg"
+                },
+                {
+                    "no": 6,
+                    "rooms": {
+                        "storey": 6,
+                        "garage": 6,
+                        "bedroom": 6,
+                        "bathroom": 6
+                    },
+                    "arcticturePlan": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8263yYNcPp888zCFNY0dWaD1Fg_mFgZ0wEicitMNHi3e7A8PkPVkkj82o0QvJgWgYPk&usqp=CAU"
+                }
+            ]
+
+
+        },
+
+        {
+            "name": "Truganina 6 Blake Court",
+            "projectImage": "https://soho.com.au/articles/wp-content/uploads/2022/03/1-mosman-beach-house.webp",
+            "totalUnit": 4,
+            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
+            "propertyAddress": "720-722 Stud Road, Scoresby, VIC 3179",
+            "videoURL": "https://www.youtube.com/embed/fGKgQyhMF6g",
+            "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5474625401716!2d72.84731757603005!3d21.21012878152297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea20756481%3A0x1ef5b7359e8819da!2sJSP%20infotech!5e0!3m2!1sen!2sin!4v1685956626581!5m2!1sen!2sin",
+            "houseImage": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyz1dRS5YEZxcFI5pcg0NdZgRQDiZo68cBUcu3lO6ib3Iab727txR_ZSmeRJx7ykmO0VU&usqp=CAU",
+                "https://amazingarchitecture.com/storage/files/1/architecture-firms/r-architecture/humble-house/humble_house_%20r_architecture_berwick_victoria_australia-01.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9tFgg6gijIvDhwSgor0tTkxbqsSDdTBqN38GRaglf2WzpU1tfAJpwsW-_kCPXoAX8LA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MRbH1nHjz0-CwfRWGmnty7x6QmsDIKTd-DlVbIRQg_hCDh7SCy4xbzop8dTX4RBJeTk&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe93dEZUrYcUQq0nRBOT5VPB7GCYMDXx7jRshpFL1VatFdytvtjFPkjDAtmarPC8Ct3BU&usqp=CAU"
+            ]
+
+        },
+        {
+            "name": "Truganina 35 Capricorn Road",
+            "projectImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyyyBQGj4oYXJieatbqURXCcrCA7Lp1GJtYA&usqp=CAU",
+            "totalUnit": 4,
+            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
+            "propertyAddress": "720-722 Stud Road, Scoresby, VIC 3179",
+            "videoURL": "https://www.youtube.com/embed/fGKgQyhMF6g",
+            "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5474625401716!2d72.84731757603005!3d21.21012878152297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea20756481%3A0x1ef5b7359e8819da!2sJSP%20infotech!5e0!3m2!1sen!2sin!4v1685956626581!5m2!1sen!2sin",
+            "houseImage": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyz1dRS5YEZxcFI5pcg0NdZgRQDiZo68cBUcu3lO6ib3Iab727txR_ZSmeRJx7ykmO0VU&usqp=CAU",
+                "https://amazingarchitecture.com/storage/files/1/architecture-firms/r-architecture/humble-house/humble_house_%20r_architecture_berwick_victoria_australia-01.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9tFgg6gijIvDhwSgor0tTkxbqsSDdTBqN38GRaglf2WzpU1tfAJpwsW-_kCPXoAX8LA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MRbH1nHjz0-CwfRWGmnty7x6QmsDIKTd-DlVbIRQg_hCDh7SCy4xbzop8dTX4RBJeTk&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe93dEZUrYcUQq0nRBOT5VPB7GCYMDXx7jRshpFL1VatFdytvtjFPkjDAtmarPC8Ct3BU&usqp=CAU"
+            ]
+
+        },
+        {
+            "name": "Mernda Bridginn Road",
+            "projectImage": "https://www.smh.com.au/content/dam/images/g/w/h/d/8/x/image.imgtype.articleLeadwide.620x349.png/1497496733225.png",
+            "totalUnit": 4,
+            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
+            "propertyAddress": "720-722 Stud Road, Scoresby, VIC 3179",
+            "videoURL": "https://www.youtube.com/embed/fGKgQyhMF6g",
+            "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5474625401716!2d72.84731757603005!3d21.21012878152297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea20756481%3A0x1ef5b7359e8819da!2sJSP%20infotech!5e0!3m2!1sen!2sin!4v1685956626581!5m2!1sen!2sin",
+            "houseImage": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyz1dRS5YEZxcFI5pcg0NdZgRQDiZo68cBUcu3lO6ib3Iab727txR_ZSmeRJx7ykmO0VU&usqp=CAU",
+                "https://amazingarchitecture.com/storage/files/1/architecture-firms/r-architecture/humble-house/humble_house_%20r_architecture_berwick_victoria_australia-01.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9tFgg6gijIvDhwSgor0tTkxbqsSDdTBqN38GRaglf2WzpU1tfAJpwsW-_kCPXoAX8LA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MRbH1nHjz0-CwfRWGmnty7x6QmsDIKTd-DlVbIRQg_hCDh7SCy4xbzop8dTX4RBJeTk&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe93dEZUrYcUQq0nRBOT5VPB7GCYMDXx7jRshpFL1VatFdytvtjFPkjDAtmarPC8Ct3BU&usqp=CAU"
+            ]
+
+        },
+        {
+            "name": "South Morang Plenty Road",
+            "projectImage": "https://i2.au.reastatic.net/800x600/ceabb1d7a3406f1aaf122ac076deea63cf1a431e37cfec7e67caeb4ba8f4951c/image.jpg",
+            "totalUnit": 4,
+            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
+            "propertyAddress": "720-722 Stud Road, Scoresby, VIC 3179",
+            "videoURL": "https://www.youtube.com/embed/fGKgQyhMF6g",
+            "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5474625401716!2d72.84731757603005!3d21.21012878152297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea20756481%3A0x1ef5b7359e8819da!2sJSP%20infotech!5e0!3m2!1sen!2sin!4v1685956626581!5m2!1sen!2sin",
+            "houseImage": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyz1dRS5YEZxcFI5pcg0NdZgRQDiZo68cBUcu3lO6ib3Iab727txR_ZSmeRJx7ykmO0VU&usqp=CAU",
+                "https://amazingarchitecture.com/storage/files/1/architecture-firms/r-architecture/humble-house/humble_house_%20r_architecture_berwick_victoria_australia-01.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9tFgg6gijIvDhwSgor0tTkxbqsSDdTBqN38GRaglf2WzpU1tfAJpwsW-_kCPXoAX8LA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MRbH1nHjz0-CwfRWGmnty7x6QmsDIKTd-DlVbIRQg_hCDh7SCy4xbzop8dTX4RBJeTk&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe93dEZUrYcUQq0nRBOT5VPB7GCYMDXx7jRshpFL1VatFdytvtjFPkjDAtmarPC8Ct3BU&usqp=CAU"
+            ]
+        },
+        {
+            "name": "Mooroolbark Summit Court",
+            "projectImage": "https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_webp/https://www.gmlaw.com.au/wp-content/uploads/2022/03/property.jpg",
+            "totalUnit": 4,
+            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
+            "propertyAddress": "720-722 Stud Road, Scoresby, VIC 3179",
+            "videoURL": "https://www.youtube.com/embed/fGKgQyhMF6g",
+            "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5474625401716!2d72.84731757603005!3d21.21012878152297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea20756481%3A0x1ef5b7359e8819da!2sJSP%20infotech!5e0!3m2!1sen!2sin!4v1685956626581!5m2!1sen!2sin",
+            "houseImage": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyz1dRS5YEZxcFI5pcg0NdZgRQDiZo68cBUcu3lO6ib3Iab727txR_ZSmeRJx7ykmO0VU&usqp=CAU",
+                "https://amazingarchitecture.com/storage/files/1/architecture-firms/r-architecture/humble-house/humble_house_%20r_architecture_berwick_victoria_australia-01.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9tFgg6gijIvDhwSgor0tTkxbqsSDdTBqN38GRaglf2WzpU1tfAJpwsW-_kCPXoAX8LA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MRbH1nHjz0-CwfRWGmnty7x6QmsDIKTd-DlVbIRQg_hCDh7SCy4xbzop8dTX4RBJeTk&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe93dEZUrYcUQq0nRBOT5VPB7GCYMDXx7jRshpFL1VatFdytvtjFPkjDAtmarPC8Ct3BU&usqp=CAU"
+            ]
+        },
+        {
+            "name": "Scoresby 674 Stud Rd",
+            "projectImage": "https://live-production.wcms.abc-cdn.net.au/8b94c23de397d7ac7cb3110899288f13?impolicy=wcms_crop_resize&cropH=2082&cropW=3701&xPos=0&yPos=0&width=862&height=485",
+            "totalUnit": 4,
+            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
+            "propertyAddress": "720-722 Stud Road, Scoresby, VIC 3179",
+            "videoURL": "https://www.youtube.com/embed/fGKgQyhMF6g",
+            "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5474625401716!2d72.84731757603005!3d21.21012878152297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea20756481%3A0x1ef5b7359e8819da!2sJSP%20infotech!5e0!3m2!1sen!2sin!4v1685956626581!5m2!1sen!2sin",
+            "houseImage": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyz1dRS5YEZxcFI5pcg0NdZgRQDiZo68cBUcu3lO6ib3Iab727txR_ZSmeRJx7ykmO0VU&usqp=CAU",
+                "https://amazingarchitecture.com/storage/files/1/architecture-firms/r-architecture/humble-house/humble_house_%20r_architecture_berwick_victoria_australia-01.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9tFgg6gijIvDhwSgor0tTkxbqsSDdTBqN38GRaglf2WzpU1tfAJpwsW-_kCPXoAX8LA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MRbH1nHjz0-CwfRWGmnty7x6QmsDIKTd-DlVbIRQg_hCDh7SCy4xbzop8dTX4RBJeTk&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe93dEZUrYcUQq0nRBOT5VPB7GCYMDXx7jRshpFL1VatFdytvtjFPkjDAtmarPC8Ct3BU&usqp=CAU"
+            ]
+        },
+        {
+            "name": "Boronia 24 Rankin Rd",
+            "projectImage": "https://imageresizer.static9.net.au/tlld0P5jzDeMA0AzpvjoyyEf6yk=/750x422/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F8e804707-8ce0-4bca-9f0b-f71078679997",
+            "totalUnit": 4,
+            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
+            "propertyAddress": "720-722 Stud Road, Scoresby, VIC 3179",
+            "videoURL": "https://www.youtube.com/embed/fGKgQyhMF6g",
+            "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5474625401716!2d72.84731757603005!3d21.21012878152297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea20756481%3A0x1ef5b7359e8819da!2sJSP%20infotech!5e0!3m2!1sen!2sin!4v1685956626581!5m2!1sen!2sin",
+            "houseImage": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyz1dRS5YEZxcFI5pcg0NdZgRQDiZo68cBUcu3lO6ib3Iab727txR_ZSmeRJx7ykmO0VU&usqp=CAU",
+                "https://amazingarchitecture.com/storage/files/1/architecture-firms/r-architecture/humble-house/humble_house_%20r_architecture_berwick_victoria_australia-01.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9tFgg6gijIvDhwSgor0tTkxbqsSDdTBqN38GRaglf2WzpU1tfAJpwsW-_kCPXoAX8LA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MRbH1nHjz0-CwfRWGmnty7x6QmsDIKTd-DlVbIRQg_hCDh7SCy4xbzop8dTX4RBJeTk&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe93dEZUrYcUQq0nRBOT5VPB7GCYMDXx7jRshpFL1VatFdytvtjFPkjDAtmarPC8Ct3BU&usqp=CAU"
+            ]
+        }
+    ]
+
+
+}

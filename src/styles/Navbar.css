@@ -1,0 +1,14 @@
+/* THEME COLOR #6d4687 */
+
+.list {
+    /* color: '#3D2521'; */
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.list:hover {
+    font-weight: 600;
+    color: #46144c;
+}
