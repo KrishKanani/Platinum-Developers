@@ -10,7 +10,12 @@ import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import { Mail } from "@mui/icons-material";
 
+import "../../styles/HomePage.css";
+
+import { useTheme } from "@mui/material/styles";
+
 const HomeWhyChoose = () => {
+  const theme = useTheme();
   const content = [
     {
       label: "On Budget",
@@ -75,11 +80,12 @@ const HomeWhyChoose = () => {
         >
           {content.map((item, index) => (
             <Box
+              className="card"
               sx={{
                 width: { xs: "80%", md: "28%", lg: "26%" },
                 height: { xs: "400px", sm: "350px", md: "550px", lg: "500px" },
                 border: "1px solid rgba(0,0,0,0.3)",
-                borderBottom: "10px solid #523d61",
+                borderBottom: "10px solid #46144c",
                 padding: { xs: "20px", md: "30px" },
                 marginTop: { xs: "20px", md: "" },
                 backgroundColor: "#FFF",
@@ -87,18 +93,22 @@ const HomeWhyChoose = () => {
             >
               {index === 0 ? (
                 <PaidOutlinedIcon
-                  sx={{ fontSize: "80px", color: "#6d4687", marginTop: "80px" }}
+                  className="text"
+                  sx={{ fontSize: "80px", color: "#46144c", marginTop: "80px" }}
                 />
               ) : index === 1 ? (
                 <StarBorderIcon
-                  sx={{ fontSize: "80px", color: "#6d4687", marginTop: "80px" }}
+                  className="text"
+                  sx={{ fontSize: "80px", color: "#46144c", marginTop: "80px" }}
                 />
               ) : (
                 <GradingIcon
-                  sx={{ fontSize: "80px", color: "#6d4687", marginTop: "80px" }}
+                  className="text"
+                  sx={{ fontSize: "80px", color: "#46144c", marginTop: "80px" }}
                 />
               )}
               <Typography
+                className="text"
                 sx={{
                   fontSize: "30px",
                   fontFamily: "Libre Franklin",
@@ -109,17 +119,11 @@ const HomeWhyChoose = () => {
               >
                 {item.label}
               </Typography>
-              <Typography
-                variant="subtitle"
-                // sx={{
-                //   fontSize: "18px",
-                //   fontFamily: "Poppins",
-                //   fontWeight: "400",
-                //   margin: "auto 10px",
-                // }}
-              >
+              <Typography className="text" variant="subtitle">
                 {item.description}
               </Typography>
+
+              <Box class="go-corner" href="#"></Box>
             </Box>
           ))}
         </Box>

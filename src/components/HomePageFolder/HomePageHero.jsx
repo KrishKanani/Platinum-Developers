@@ -27,6 +27,19 @@ const HomePageHero = () => {
         },
       }}
     >
+      {/* <div className="card">
+        <div className="card__img">
+          <img
+            src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png"
+            alt="Card Image"
+          />
+        </div>
+        <div className="__grid-effect">
+          {Array.from({ length: 100 }, (_, index) => (
+            <a key={index} className="card__grid-effect-tile" href="#"></a>
+          ))}
+        </div>
+      </div> */}
       <Box
         sx={{
           width: "100%",

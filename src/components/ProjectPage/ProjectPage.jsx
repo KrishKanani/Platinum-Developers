@@ -51,7 +51,7 @@ const ProjectPage = (projectName) => {
   images = content.houseImage;
 
   // ----------------------------------------- UNIT PLAN SELECTION -------------------------
-  const [selectedUnit, setSelectedUnit] = useState(1);
+  const [selectedUnit, setSelectedUnit] = useState(0);
   var selectedUnitContent;
   console.log(selectedUnit);
   const handleSelectUnit = (event) => {
@@ -249,7 +249,7 @@ const ProjectPage = (projectName) => {
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
-              defaultValue="1"
+              defaultValue="0"
               value={selectedUnit}
               label="Unit No."
               onChange={handleSelectUnit}

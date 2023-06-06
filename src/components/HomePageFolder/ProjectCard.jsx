@@ -12,24 +12,18 @@ const ProjectCard = ({ projectImage, projectName, units }) => {
   };
   return (
     <Box
+      className="project-card-img"
       onClick={handleClick}
       sx={{
-        width: { sm: "350px", md: "400px" },
+        width: { sm: "350px", md: "360px" },
         background: "#fcf5ff",
         // backgroundColor: "#fcf9f0",
-        border: "1px solid rgba(0,0,0,0.2)",
         // borderBottom: "8px solid #523d61",
         paddingBottom: "8px",
       }}
     >
       <Box sx={{ height: "250px" }}>
-        <img
-          src={projectImage}
-          alt=""
-          width="100%"
-          height="100%"
-          //   style={{ borderRadius: "10px 10px 0px 0px" }}
-        />
+        <img src={projectImage} alt="" width="100%" height="80%" />
       </Box>
 
       <Box sx={{ paddingTop: "10px" }}>

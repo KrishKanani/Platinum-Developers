@@ -1,0 +1,98 @@
+.go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #46144c;
+    border-radius: 0 4px 0 32px;
+}
+
+.card {
+    display: block;
+    position: relative;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #46144c;
+    height: 56px;
+    width: 56px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.4s ease-out;
+}
+
+.card:hover:before {
+    transform: scale(21);
+}
+
+.card:hover .text {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* :root {
+    
+    --bxs: 0 0 0;
+    --gap: 3rem;
+    --coef: -0.3rem;
+}
+
+&__grid-effect {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+&__grid-effect-tile {
+    position: relative;
+}
+
+&__grid-effect-tile:before {
+    content: '';
+    color: #A9C9FF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 50%;
+    background: #A9C9FF;
+    transition: 500ms linear all;
+    box-shadow: 0 0 0, 0 0 0, 0 0 0, 0 0 0;
+    @for $i from 1 through 4 {
+        var(--bxs): var(--bxs) + ',' + $i * var(--gap) + ' 0 0 ' + $i * var(--coef) + ',' + $i * -var(--gap) + ' 0 0 ' + $i * var(--coef) + ',' + ' 0 ' + $i * -var(--gap) + ' 0 ' + $i * var(--coef) + ',' + ' 0 ' + $i * var(--gap) + ' 0 ' + $i * var(--coef);
+        @for $j from 1 through 4 {
+            var(--bxs): var(--bxs) + ',' + $i * var(--gap) + ' ' + $j * var(--gap) + ' 0 ' + $i * $j * 1.5 * var(--coef) + ',' + $i * var(--gap) + ' ' + $j * -var(--gap) + ' 0 ' + $i * $j * 1.5 * var(--coef) + ',' + $i * -var(--gap) + ' ' + $j * var(--gap) + ' 0 ' + $i * $j * 1.5 * var(--coef) + ',' + $i * -var(--gap) + ' ' + $j * -var(--gap) + ' 0 ' + $i * $j * 1.5 * var(--coef);
+        }
+    }
+    box-shadow: var(--bxs);
+}
+
+&__grid-effect-tile:hover:before {
+    height: 3rem;
+    width: 3rem;
+    transition: 70ms linear all;
+} */
