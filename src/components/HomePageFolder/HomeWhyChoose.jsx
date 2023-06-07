@@ -94,17 +94,17 @@ const HomeWhyChoose = () => {
               {index === 0 ? (
                 <PaidOutlinedIcon
                   className="text"
-                  sx={{ fontSize: "80px", color: "#46144c", marginTop: "80px" }}
+                  sx={{ fontSize: "80px", color: "#46144c", marginTop: "70px" }}
                 />
               ) : index === 1 ? (
                 <StarBorderIcon
                   className="text"
-                  sx={{ fontSize: "80px", color: "#46144c", marginTop: "80px" }}
+                  sx={{ fontSize: "80px", color: "#46144c", marginTop: "70px" }}
                 />
               ) : (
                 <GradingIcon
                   className="text"
-                  sx={{ fontSize: "80px", color: "#46144c", marginTop: "80px" }}
+                  sx={{ fontSize: "80px", color: "#46144c", marginTop: "70px" }}
                 />
               )}
               <Typography
@@ -115,6 +115,7 @@ const HomeWhyChoose = () => {
                   fontWeight: "700",
                   color: "#46144c",
                   marginTop: "20px",
+                  marginBottom: "10px",
                 }}
               >
                 {item.label}

@@ -10,6 +10,9 @@ import { Mail } from "@mui/icons-material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
+//IMPORTING DATA
+import data from "../data.json";
+
 const Footer = () => {
   return (
     <Box
@@ -17,17 +20,18 @@ const Footer = () => {
         paddingBottom: "100px",
         marginTop: "200px",
         background: "#000",
-
-        position: "",
         width: "100%",
         display: "flex",
         justifyContent: "center",
         paddingBottom: "100px",
+        "@media (max-width:290px)": {
+          width: "312px",
+        },
       }}
     >
       <Box
         sx={{
-          width: { xs: "90%", sm: "75%", md: "89%", lg: "80%" },
+          width: { xs: "90%", sm: "80%", md: "89%", lg: "80%" },
           marginTop: "100px",
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
@@ -106,7 +110,7 @@ const Footer = () => {
               }}
             >
               {/* <BusinessIcon sx={{ marginRight: "10px" }} /> 7/28 Enterprise Drive, */}
-              Rowville, VIC 3178 Lorem ipsum dolor sit amet consectetur
+              {data.content.contactInfo.address} sit amet consectetur
               adipisicing elit. Sapiente, possimus!
             </Typography>
           </Box>
@@ -221,8 +225,8 @@ const Footer = () => {
               alignItems: "center",
             }}
           >
-            <BusinessIcon sx={{ marginRight: "10px" }} /> 7/28 Enterprise Drive,
-            Rowville, VIC 3178
+            <BusinessIcon sx={{ marginRight: "10px" }} />{" "}
+            {data.content.contactInfo.address}
           </Typography>
 
           <Typography
@@ -234,7 +238,8 @@ const Footer = () => {
               alignItems: "center",
             }}
           >
-            <CallIcon sx={{ marginRight: "10px" }} /> 1300 459 162
+            <CallIcon sx={{ marginRight: "10px" }} />{" "}
+            {data.content.contactInfo.contact}
           </Typography>
           <Typography
             sx={{
@@ -246,7 +251,8 @@ const Footer = () => {
               width: "10%",
             }}
           >
-            <Mail sx={{ marginRight: "10px" }} /> platinumdevelopers@gmail.com
+            <Mail sx={{ marginRight: "10px" }} />{" "}
+            {data.content.contactInfo.email}
           </Typography>
         </Box>
 

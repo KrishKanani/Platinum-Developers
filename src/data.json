@@ -1,5 +1,11 @@
 {
     "content": {
+        "contactInfo": {
+            "email": "platinumdevelopers@gmail.com",
+            "contact": "+61 9876543210",
+            "address": "7/28 Enterprise Drive, Rowville, VIC 3178 "
+
+        },
         "AboutUsCard": [{
                 "title": "Happy Customer",
                 "numbers": "250+",
@@ -23,7 +29,7 @@
             "name": "Scoresby 674 Stud Road",
             "projectImage": "https://live-production.wcms.abc-cdn.net.au/8b94c23de397d7ac7cb3110899288f13?impolicy=wcms_crop_resize&cropH=2082&cropW=3701&xPos=0&yPos=0&width=862&height=485",
             "totalUnit": 4,
-            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
+            "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",
             "propertyAddress": "720-722 Stud Road, Scoresby, VIC 3179",
             "videoURL": "https://www.youtube.com/embed/fGKgQyhMF6g",
             "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5474625401716!2d72.84731757603005!3d21.21012878152297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea20756481%3A0x1ef5b7359e8819da!2sJSP%20infotech!5e0!3m2!1sen!2sin!4v1685956626581!5m2!1sen!2sin",
@@ -175,7 +181,7 @@
 
         },
         {
-            "name": "Truganina 35 Capricorn Road",
+            "name": "Truganina 35 Capricorn ",
             "projectImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyyyBQGj4oYXJieatbqURXCcrCA7Lp1GJtYA&usqp=CAU",
             "totalUnit": 4,
             "propertyDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet repellendus aliquid minus laborum iure repellat, consequuntur saepe ullam omnis!",

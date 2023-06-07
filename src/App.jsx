@@ -9,6 +9,7 @@ import HomePage from "./components/HomePageFolder/HomePage";
 import Portfolio from "./components/Portfolio/Portfolio";
 import ProjectPage from "./components/ProjectPage/ProjectPage";
 import Footer from "./components/Footer";
+import SliderSwiper from "./components/common/SlideSwiper";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
@@ -99,6 +100,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route exact path="/" element={<HomePage />} />
+            <Route exact path="/slider" element={<SliderSwiper />} />
             <Route exact path="/portfolio" element={<Portfolio />} />
 
             {/* <Route element={{/> */}

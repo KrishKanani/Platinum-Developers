@@ -16,6 +16,7 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 // -----------------IMPORTING DATA ----------------
 import data from "../../data.json";
+import "../../styles/HomePage.css";
 
 const HomePageHero = () => {
   const theme = useTheme();
@@ -47,7 +48,6 @@ const HomePageHero = () => {
           backgroundImage: `url(${HeroImage})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
-          backgroundColor: "rgba(61, 37, 33, 0.2)",
           zIndex: "0",
           "@media (min-width:1020px) ": {
             width: "100%",
@@ -60,6 +60,7 @@ const HomePageHero = () => {
             flexDirection: "column",
             justifyContent: "start",
             height: { xs: "34.5vh", sm: "59vh", md: "90vh", lg: "85vh" },
+            // backdropFilter: "blur(2px)",
             backgroundColor: "rgba(0, 0, 0, 0.4)",
             paddingTop: { xs: "20px", sm: "50px", md: "90px" },
             textAlign: "start",
@@ -361,13 +362,13 @@ const HomePageHero = () => {
           </Box>
         ))} */}
         <Box
+          className="aboutCard"
           flexDirection="column"
           textAlign="left"
           sx={{
             m: { xs: "0 1vw", sm: "0 2vw", md: "0vw 1.3vw", lg: "0vw 2vw" },
             width: { md: "25vw", lg: "50vw" },
             backgroundColor: "#faf2ff",
-            border: "2px solid #cfafe3",
             padding: { xs: "3vw 4vw", md: "2vw 3vw" },
             position: "relative",
             textAlign: "center",
@@ -381,11 +382,13 @@ const HomePageHero = () => {
             borderRadius: "20px",
             boxShadow:
               "0px 5px 10px rgba(0, 0, 0, 0.09), 0px 2px 5px rgba(0, 0, 0, 0.1)",
+            zIndex: "10",
           }}
         >
           <Box
             sx={{
               // margin: { xs: "10px", md: "0px" },
+              backdropFilter: "blur(8px)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",

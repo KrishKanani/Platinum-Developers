@@ -19,7 +19,7 @@ import GarageIcon from "@mui/icons-material/Garage";
 import DomainIcon from "@mui/icons-material/Domain";
 
 // --------------- IMPORTING COMPONENTS --------------------------
-import Slider from "../Portfolio/Slider";
+import SlideSwiper from "../common/SlideSwiper";
 
 const ProjectPage = (projectName) => {
   // -------------------------- To Find the Project Name from URL -------------------------------------------------------------------------------------------
@@ -80,7 +80,7 @@ const ProjectPage = (projectName) => {
         {content.name}
       </Typography>
 
-      <Slider images={images} />
+      <SlideSwiper images={images} />
       <Box
         sx={{
           backgroundColor: theme.palette.primary.main,
@@ -127,7 +127,11 @@ const ProjectPage = (projectName) => {
       >
         <Box
           sx={{
-            width: { xs: "95vw", sm: "80vw", lg: "62vw" },
+            width: { xs: "90vw", sm: "90vw", lg: "62vw" },
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
           }}
         >
           {/* ---------------------------------------------------------------------- DESCRIPTION -------------------------------------------------------------------------  */}
@@ -284,7 +288,7 @@ const ProjectPage = (projectName) => {
                   marginTop: "30px",
                   display: { xs: "block", sm: "flex" },
                   flexDirection: "row",
-                  justifyContent: "space-evenly",
+                  justifyContent: { xs: "center", md: "space-evenly" },
                   alignItems: "center",
                 }}
               >

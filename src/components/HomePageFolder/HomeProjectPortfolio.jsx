@@ -7,6 +7,15 @@ import data from "../../data.json";
 import ProjectCard from "./ProjectCard";
 
 const HomeProjectPortfolio = () => {
+  const maxLength = 148;
+  const handleDesc = (propertyDescription) => {
+    if (propertyDescription.length <= maxLength) {
+      return propertyDescription;
+    } else {
+      propertyDescription = propertyDescription.substring(0, maxLength) + "...";
+      return propertyDescription;
+    }
+  };
   return (
     <Box
       sx={{
@@ -65,7 +74,7 @@ const HomeProjectPortfolio = () => {
             >
               <Grid
                 container
-                rowSpacing={{ xs: 2, lg: 6 }}
+                rowSpacing={{ xs: 2, lg: 12 }}
                 columnSpacing={{ sm: 0, md: 0, lg: -1 }}
                 columns={{ xs: 12, sm: 12, md: 12, lg: 12 }}
               >
@@ -84,6 +93,7 @@ const HomeProjectPortfolio = () => {
                       projectImage={item.projectImage}
                       projectName={item.name}
                       units={item.totalUnit}
+                      propertyDescription={handleDesc(item.propertyDescription)}
                     />
                   </Grid>
                 ))}

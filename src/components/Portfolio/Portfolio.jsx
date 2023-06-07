@@ -3,7 +3,7 @@ import { Box, Typography, Grid } from "@mui/material";
 import data from "../../data.json";
 
 // IMPORTING COMPONENTS
-import Slider from "./Slider";
+import SlideSwiper from "../common/SlideSwiper";
 import ProjectCard from "../HomePageFolder/ProjectCard";
 import { ThemeProvider, useTheme } from "@mui/material";
 
@@ -21,7 +21,15 @@ const Portfolio = () => {
   ];
   const [searchCity, setSearchCity] = useState("");
 
-  console.log(searchCity);
+  const maxLength = 148;
+  const handleDesc = (propertyDescription) => {
+    if (propertyDescription.length <= maxLength) {
+      return propertyDescription;
+    } else {
+      propertyDescription = propertyDescription.substring(0, maxLength) + "...";
+      return propertyDescription;
+    }
+  };
   return (
     <Box
       sx={{
@@ -39,11 +47,14 @@ const Portfolio = () => {
             justifyContent: "center",
             alignItems: "center",
             margin: "40px auto",
+            "@media (max-width:290px)": {
+              width: "312px",
+            },
           }}
         >
           <Typography
             sx={{
-              fontSize: "6rem",
+              fontSize: { xs: "2rem", sm: "3rem", lg: "4rem" },
               fontFamily: "Libre Franklin",
               fontWeight: "bold",
               color: theme.palette.primary.main,
@@ -55,7 +66,7 @@ const Portfolio = () => {
             sx={{
               width: { xs: "90%", sm: "80%", md: "60%" },
               fontFamily: "Poppins",
-              fontSize: "18px",
+              fontSize: { xs: "16px", md: "18px" },
             }}
           >
             At Platinum Developers we have the right kind of property to suit
@@ -63,7 +74,7 @@ const Portfolio = () => {
             in a sought after location, we’ve got what you need.
           </Typography>
         </Box>
-        <Slider images={portfolioHeroImages} />
+        <SlideSwiper images={portfolioHeroImages} />
         <Box
           sx={{
             backgroundColor: "#f8f0fc",
@@ -71,6 +82,9 @@ const Portfolio = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            "@media (max-width:290px)": {
+              width: "270px",
+            },
           }}
         >
           <Box
@@ -138,7 +152,8 @@ const Portfolio = () => {
                 <ProjectCard
                   projectImage={item.projectImage}
                   projectName={item.name}
-                  units={item.units}
+                  units={item.totalUnit}
+                  propertyDescription={handleDesc(item.propertyDescription)}
                 />
               </Grid>
             ))}

@@ -1,33 +1,67 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Box, Typography, Button } from "@mui/material";
 import { ThemeProvider, useTheme } from "@emotion/react";
 import { useNavigate } from "react-router-dom";
 
-const ProjectCard = ({ projectImage, projectName, units }) => {
+const ProjectCard = ({
+  projectImage,
+  projectName,
+  units,
+  propertyDescription,
+}) => {
   const navigate = useNavigate();
   const handleClick = () => {
     var projectNameNav = projectName.split(" ").join("-");
 
     navigate(projectNameNav);
+
+    // const maxLength = 100;
+
+    // const propertyDescription = (propertyDescription) => {
+    //   console.log(propertyDescription);
+    //   if (propertyDescription.length <= maxLength) {
+    //     return propertyDescription;
+    //   }
+    //   return propertyDescription.substring(0, maxLength) + "...";
+    // };
   };
   return (
     <Box
-      className="project-card-img"
+      className="projectCard "
       onClick={handleClick}
       sx={{
         width: { sm: "350px", md: "360px" },
+        height: { xs: "auto", lg: "500px" },
         background: "#fcf5ff",
-        // backgroundColor: "#fcf9f0",
-        // borderBottom: "8px solid #523d61",
+        display: "grid",
+        justifyContent: "center",
         paddingBottom: "8px",
+        boxShadow: "0px 13px 10px -8px rgba(0, 0, 0,0.1)",
+        borderTopLeftRadius: "10px",
+        borderTopRightRadius: "10px",
+        "@media (max-width:290px)": {
+          width: "250px",
+        },
       }}
     >
-      <Box sx={{ height: "250px" }}>
-        <img src={projectImage} alt="" width="100%" height="80%" />
+      <Box
+        sx={{
+          height: "300px",
+          width: "100%",
+        }}
+      >
+        <img
+          src={projectImage}
+          alt="Project Images"
+          width="100%"
+          height="100%"
+          style={{ borderTopLeftRadius: "10px", borderTopRightRadius: "10px" }}
+        />
       </Box>
 
-      <Box sx={{ paddingTop: "10px" }}>
+      <Box sx={{ padding: "18px" }}>
         <Typography
+          className="transition title"
           sx={{
             fontFamily: "Poppins",
             fontSize: { xs: "18px", sm: "20px", md: "22px" },
@@ -35,6 +69,7 @@ const ProjectCard = ({ projectImage, projectName, units }) => {
         >
           {projectName}
         </Typography>
+
         <Box
           sx={{
             // display: "flex",
@@ -51,10 +86,13 @@ const ProjectCard = ({ projectImage, projectName, units }) => {
           >
             Total Units: {units}
           </Typography>
+          <Typography className="propertyDesc transition">
+            {propertyDescription}
+          </Typography>
           <Button
             sx={{
               marginTop: "8px",
-              fontSize: { xs: "16px", sm: "16px", md: "18px" },
+              fontSize: { xs: "14px", sm: "16px", md: "16px" },
               padding: "8px 18px",
               backgroundColor: "#46144c",
               color: "#FFF",

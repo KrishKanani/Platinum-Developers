@@ -7,6 +7,10 @@ import TestimonialCards from "./TestimonialCards";
 import BusinessIcon from "@mui/icons-material/Business";
 import CallIcon from "@mui/icons-material/Call";
 import Mail from "@mui/icons-material/Email";
+
+//IMPORTING DATA
+import data from "../../data.json";
+
 const Testimonials = () => {
   const reviews = [
     {
@@ -144,8 +148,8 @@ const Testimonials = () => {
                   color: "#6d4687",
                 }}
               >
-                <BusinessIcon sx={{ marginRight: "10px" }} /> 7/28 Enterprise
-                Drive, Rowville, VIC 3178
+                <BusinessIcon sx={{ marginRight: "10px" }} />{" "}
+                {data.content.contactInfo.address}
               </Typography>
 
               <Typography
@@ -158,7 +162,8 @@ const Testimonials = () => {
                   alignItems: "center",
                 }}
               >
-                <CallIcon sx={{ marginRight: "10px" }} /> 1300 459 162
+                <CallIcon sx={{ marginRight: "10px" }} />{" "}
+                {data.content.contactInfo.contact}
               </Typography>
               <Typography
                 sx={{
@@ -171,7 +176,7 @@ const Testimonials = () => {
                 }}
               >
                 <Mail sx={{ marginRight: "10px" }} />{" "}
-                platinumdevelopers@gmail.com
+                {data.content.contactInfo.email}
               </Typography>
             </Box>
             {/* ------------------ Visit our Office -----------------  */}

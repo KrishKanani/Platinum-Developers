@@ -20,6 +20,9 @@ import {
 } from "@mui/material";
 import Logo from "../assets/Logo.jpeg";
 
+//IMPORTING DATA
+import data from "../data.json";
+
 // IMPORTING ICONS
 import CallIcon from "@mui/icons-material/Call";
 import CloseIcon from "@mui/icons-material/Close";
@@ -93,7 +96,7 @@ const Navbar = () => {
             <Typography
               sx={{ fontSize: { xs: "12px", sm: "20px" }, color: "white" }}
             >
-              +91 987654321
+              {data.content.contactInfo.contact}
             </Typography>
           </Stack>
           <Stack
@@ -113,7 +116,7 @@ const Navbar = () => {
             <Typography
               sx={{ color: "#FFFFFF", fontSize: { xs: "12px", sm: "20px" } }}
             >
-              platinumdeveloper@gmail.com
+              {data.content.contactInfo.email}
             </Typography>
           </Stack>
         </Stack>
@@ -139,7 +142,9 @@ const Navbar = () => {
               className="logo"
               sx={{ display: "flex", gap: "12px", alignItems: "center" }}
             >
-              <img src={Logo} alt="" width="" height="50px" />
+              <Link to="/">
+                <img src={Logo} alt="" width="" height="50px" />
+              </Link>
               {/* <Typography
                 sx={{
                   color: "#6d4687",
