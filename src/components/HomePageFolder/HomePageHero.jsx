@@ -144,7 +144,7 @@ const HomePageHero = () => {
           flexDirection: "row",
           height: { xs: "680px", sm: "auto", md: "650px" },
           alignItems: "center",
-          backgroundColor: "#f8f0fc",
+          backgroundColor: theme.palette.secondary.main,
           padding: {
             xs: "50px 14px",
             sm: "80px",
@@ -368,7 +368,7 @@ const HomePageHero = () => {
           sx={{
             m: { xs: "0 1vw", sm: "0 2vw", md: "0vw 1.3vw", lg: "0vw 2vw" },
             width: { md: "25vw", lg: "50vw" },
-            backgroundColor: "#faf2ff",
+            backgroundColor: theme.palette.secondary.main,
             padding: { xs: "3vw 4vw", md: "2vw 3vw" },
             position: "relative",
             textAlign: "center",
@@ -436,7 +436,7 @@ const HomePageHero = () => {
           sx={{
             m: { xs: "0 1vw", sm: "0 2vw", md: "0vw 1.2vw", lg: "0vw 2vw" },
             width: { md: "24vw", lg: "50vw" },
-            backgroundColor: "#faf2ff",
+            backgroundColor: theme.palette.secondary.main,
             border: "2px solid #cfafe3",
             padding: { xs: "3vw 4vw", md: "2vw 3vw" },
             position: "relative",

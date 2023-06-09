@@ -59,7 +59,14 @@ const ProjectCard = ({
         />
       </Box>
 
-      <Box sx={{ padding: "18px" }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         <Typography
           className="transition title"
           sx={{

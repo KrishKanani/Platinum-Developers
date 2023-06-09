@@ -1,15 +1,3 @@
-.aboutCard {
-    background: rgba( 255, 255, 255, 0.15);
-    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37); */
-    backdrop-filter: blur( 18px);
-    -webkit-backdrop-filter: blur( 18px);
-    border: 1px solid #faf2ff;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    z-index: 10;
-    color: whitesmoke;
-}
-
 .go-corner {
     display: flex;
     align-items: center;
@@ -29,9 +17,6 @@
     position: relative;
     background-color: #f2f8f9;
     border-radius: 4px;
-    padding: 32px 24px;
-    margin: 12px;
-    text-decoration: none;
     z-index: 0;
     overflow: hidden;
 }
@@ -61,7 +46,7 @@
 }
 
 .transition {
-    transition: .3s cubic-bezier(.3, 0, 0, 1.3)
+    transition: .6s cubic-bezier(.3, 0, 0, 1.3)
 }
 
 .projectCard:hover .title {
@@ -70,8 +55,9 @@
     position: absolute;
     background-color: #46144c;
     color: #fff;
-    margin-top: -80px;
+    margin-top: -280px;
     border-radius: 4px;
+    text-align: center;
 }
 
 .propertyDesc {

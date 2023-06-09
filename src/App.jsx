@@ -6,6 +6,7 @@ import data from "./data.json";
 // ----------------- IMPORTING COMPONENTS ----------------
 import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePageFolder/HomePage";
+import AboutUs from "./components/AboutUs/AboutUs";
 import Portfolio from "./components/Portfolio/Portfolio";
 import ProjectPage from "./components/ProjectPage/ProjectPage";
 import Footer from "./components/Footer";
@@ -20,7 +21,8 @@ const theme = createTheme({
       dark: "#000",
     },
     secondary: {
-      main: "#f8f0fc",
+      // main: "#f8f0fc",
+      main:"#f2f8f9",
     },
   },
   typography: {
@@ -102,6 +104,7 @@ function App() {
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/slider" element={<SliderSwiper />} />
             <Route exact path="/portfolio" element={<Portfolio />} />
+            <Route exact path="/about-us" element={<AboutUs />} />
 
             {/* <Route element={{/> */}
 

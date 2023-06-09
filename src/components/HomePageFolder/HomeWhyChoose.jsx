@@ -36,7 +36,11 @@ const HomeWhyChoose = () => {
   return (
     <Box>
       <Box
-        sx={{ marginTop: "100px", background: "#f8f0fc", paddingTop: "100px" }}
+        sx={{
+          marginTop: "100px",
+          background: theme.palette.secondary.main,
+          paddingTop: "100px",
+        }}
       >
         <Box
           sx={{

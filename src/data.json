@@ -25,6 +25,78 @@
             }
         ]
     },
+
+    "about": {
+        "heroTagline": "At Platinum Developers we have the right kind of property to suit your needs. Whether you’re looking for your first home or investing in a sought after location, we’ve got what you need.",
+        "section1": [
+            "We envisioned a skyline that is different to the existing one, a reality for “a home for every Australian” and our strength in making it a reality, the birth of Platinum Developer. We are renowned for our specialization in residential, commercial, cultural, educational and community developments.",
+            "We started out small but we are moving from strength to strength and are a force to be reckoned with in the world of property development.",
+            "The mantra for our success is quality, beautiful and solid designs and superb workmanship. Our company is recognized for its reputation for high quality, innovation and integrity. We are also the industry leader for eco-friendly, and affordable owner-occupied properties that are affordable for the local and overseas markets."
+        ],
+        "section2": {
+            "cards": [{
+                    "title": "Residential Property",
+                    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Ipsum, voluptates."
+                },
+                {
+                    "title": "Commercial Property",
+                    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, voluptates."
+                },
+                {
+                    "title": "Land Property",
+                    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, voluptates."
+                }
+            ],
+            "ExperienceTheDifference": [
+                "Fixed price upfront before you pay a deposit. No surprises, no horror stories of being hit with thousands in extra site costs later on.",
+                "Extensive experience in property development specializing in townhouses.",
+                "Affordable Housing, great value for money, quality construction with an extensive list of impressive inclusions – stone bench tops to kitchen, quality tapware, quality floor coverings, etc. depending on package.",
+                "Clever spacious designs, utilizing utmost space and Guaranteed quality finish.",
+                "Personalised one on one service provided by our specialist."
+            ]
+
+        },
+        "section3": {
+            "passionateTeam": "Our team of highly skilled professionals have a wealth of experience and knowledge between them; The knowledge that has helped us in becoming successful. Every step of the way we hold your hand, whether it is the renovation of a derelict property or whether it is designing and building one from scratch. Platinum Developer with you and beside you as you watch your dream property unfold in front of your eyes.",
+            "teamCard": [{
+                    "image": "https://img.freepik.com/free-photo/business-man-curly-cute-handsome-guy-black-suit-close-up-smiling_140725-162638.jpg?size=626&ext=jpg&ga=GA1.2.661182646.1670135593&semt=ais",
+                    "name": "Joe Warner",
+                    "position": "Sr. Manager",
+                    "work": "Lorem ipsum dolor sit amet consectetur adipisicing elit, amet consectetur  amet consectetur  amet consectetur adipisicing elit."
+                },
+                {
+                    "image": "https://img.freepik.com/free-photo/front-view-young-businessman-office-clothing_23-2148763859.jpg?size=626&ext=jpg&ga=GA1.2.661182646.1670135593&semt=ais",
+                    "name": "Joe Warner",
+                    "position": "Sr. Manager",
+                    "work": "Lorem ipsum dolor sit amet consectetur adipisicing elit, amet consectetur adipisicing elit."
+                },
+                {
+                    "image": "https://img.freepik.com/free-photo/businessman-black-suit-makes-thumb-up_114579-15885.jpg?size=626&ext=jpg&ga=GA1.1.661182646.1670135593&semt=ais",
+                    "name": "Joe Warner",
+                    "position": "Sr. Manager",
+                    "work": "Lorem ipsum dolor sit amet consectetur adipisicing elit, amet consectetur adipisicing elit."
+                },
+                {
+                    "image": "https://img.freepik.com/premium-photo/young-businessman-outdoor-modern-setting_53419-11374.jpg?size=626&ext=jpg&ga=GA1.1.661182646.1670135593&semt=ais",
+                    "name": "Joe Warner",
+                    "position": "Sr. Manager",
+                    "work": "Lorem ipsum dolor sit amet consectetur adipisicing elit, amet consectetur adipisicing elit."
+                },
+                {
+                    "image": "https://img.freepik.com/free-photo/portrait-optimistic-businessman-formalwear_1262-3600.jpg?size=626&ext=jpg&ga=GA1.2.661182646.1670135593&semt=ais",
+                    "name": "Joe Warner",
+                    "position": "Sr. Manager",
+                    "work": "Lorem ipsum dolor sit amet consectetur adipisicing elit, amet consectetur adipisicing elit."
+                },
+                {
+                    "image": "https://img.freepik.com/free-photo/business-man-curly-cute-handsome-guy-black-suit-close-up-smiling_140725-162638.jpg?size=626&ext=jpg&ga=GA1.2.661182646.1670135593&semt=ais",
+                    "name": "Joe Warner",
+                    "position": "Sr. Manager",
+                    "work": "Lorem ipsum dolor sit amet consectetur adipisicing elit, amet consectetur adipisicing elit."
+                }
+            ]
+        }
+    },
     "project": [{
             "name": "Scoresby 674 Stud Road",
             "projectImage": "https://live-production.wcms.abc-cdn.net.au/8b94c23de397d7ac7cb3110899288f13?impolicy=wcms_crop_resize&cropH=2082&cropW=3701&xPos=0&yPos=0&width=862&height=485",

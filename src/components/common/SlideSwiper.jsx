@@ -5,7 +5,13 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import { EffectCoverflow, Pagination, Navigation, Thumbs } from "swiper";
+import {
+  EffectCoverflow,
+  Pagination,
+  Navigation,
+  Thumbs,
+  Autoplay,
+} from "swiper";
 
 import { Box, Typography } from "@mui/material";
 
@@ -23,11 +29,11 @@ const images = [
 const SlideSwiper = () => {
   const [isActive, setIsActive] = useState(false);
   return (
-    <Box sx={{ display: "grid", justifyContent: "center" }}>
+    <Box sx={{ display: "grid", justifyContent: "center", marginTop: "50px" }}>
       <Box
         sx={{
           width: { xs: "95vw", sm: "90vw", md: "90vw", lg: "80vw" },
-          height: { xs: "30vh", sm: "40vh", md: "80vh", lg: "80vh" },
+          height: { xs: "30vh", sm: "40vh", md: "80vh", lg: "90vh" },
           "@media (max-width:290px)": {
             width: "340px",
           },
@@ -45,7 +51,7 @@ const SlideSwiper = () => {
           navigation={true}
           pagination={{ el: ".swiperPagination", clickable: true }}
           // navigation={{ nextEl: ".swiperNext" }}
-          modules={[Navigation, Pagination, EffectCoverflow]}
+          modules={[Autoplay, Navigation, Pagination, EffectCoverflow]}
           grabCursor={true}
           effect="coverflow"
           centeredSlides={true}
@@ -71,37 +77,39 @@ const SlideSwiper = () => {
               />
             </SwiperSlide>
           ))}
-          {/* <Box
-            sx={{
-              width: "100%",
-              height: "100%",
-              // position: "absolute",
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-            }}
-          >
-            <Box>
-              <ArrowBackIosNewOutlinedIcon
-                sx={{ color: "black", fontSize: "50px" }}
-              />
-            </Box>
-            <Box>
-              <ArrowForwardIosOutlinedIcon
-                className="swiperNext"
-                sx={{ color: "black", fontSize: "50px" }}
-              />
-            </Box>
-          </Box> */}
         </Swiper>
         {/* <Box
-          className="swiperPagination"
           sx={{
+            width: "100%",
+            height: "100%",
             display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          <Box>
+            <ArrowBackIosNewOutlinedIcon
+              sx={{ color: "black", fontSize: "50px" }}
+            />
+          </Box>
+          <Box>
+            <ArrowForwardIosOutlinedIcon
+              className="swiperNext"
+              sx={{ color: "black", fontSize: "50px" }}
+            />
+          </Box>
+        </Box> */}
+
+        <Box
+          // className=""
+          sx={{
+            marginTop: "10px",
             height: "100px",
             alignItems: "center",
             justifyContent: "center",
             gap: "20px",
+            display: { xs: "none", lg: "flex" },
+            // marginBottom: "100px",
           }}
         >
           {images.map((item, index) => (
@@ -109,17 +117,19 @@ const SlideSwiper = () => {
               sx={{
                 width: "200px",
                 height: "100%",
-                border: isActive ? "" : "",
+
+                // border: isActive ? "" : "",
               }}
             >
               <img
+                className="swiperPagination"
                 src={item}
                 alt="Image"
                 style={{ width: "100%", height: "100%" }}
               />
             </Box>
           ))}
-        </Box> */}
+        </Box>
       </Box>
     </Box>
   );

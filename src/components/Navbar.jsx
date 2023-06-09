@@ -186,13 +186,15 @@ const Navbar = () => {
                     </ListItemText>
                   </ListItemButton>
                   <ListItemButton
-                    href="/aboutus"
+                    // href="/about-us"
                     sx={{
                       "&:hover": { borderRadius: "6px" },
                     }}
                   >
                     <ListItemText disableTypography className="list">
-                      About Us
+                      <Link exact to="/about-us" className="list">
+                        About Us
+                      </Link>
                     </ListItemText>
                   </ListItemButton>
                   <ListItemButton
@@ -289,12 +291,14 @@ const Navbar = () => {
           >
             <ListItemButton href="/">
               <ListItemText disableTypography className="list">
-                {/* <Link to="/">Home</Link> */}
+                <Link to="/">Home</Link>
               </ListItemText>
             </ListItemButton>
             <ListItemButton href="/">
               <ListItemText disableTypography className="list">
-                About Us
+                <Link exact to="/about-us" className="list">
+                  About Us
+                </Link>
               </ListItemText>
             </ListItemButton>
             <ListItemButton href="/">
